@@ -8,7 +8,7 @@ Google Cloud Storage (GCS), BigQuery, Cloud Composer, Apache Airflow, Python, SQ
 
 ## 🔹 Project Architecture:
 
-![image](https://github.com/user-attachments/assets/d93b8c02-9b30-4295-929c-cc122a8ec585)
+![image](https://github.com/user-attachments/assets/537670b1-010d-4ce4-b5e1-eae73062f8d6)
 
 
 ## 🔹 Key Highlights:
