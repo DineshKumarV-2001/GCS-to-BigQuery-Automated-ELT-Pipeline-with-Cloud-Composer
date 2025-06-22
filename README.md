@@ -6,6 +6,11 @@ Designed and implemented an automated ELT pipeline using Google Cloud services t
 ## 🔹 Tools & Technologies Used:
 Google Cloud Storage (GCS), BigQuery, Cloud Composer, Apache Airflow, Python, SQL, IAM Roles, Firewall Configuration
 
+## 🔹 Project Architecture:
+
+![image](https://github.com/user-attachments/assets/d93b8c02-9b30-4295-929c-cc122a8ec585)
+
+
 ## 🔹 Key Highlights:
 
 Developed a Cloud Composer DAG to automate the ELT process end-to-end.
