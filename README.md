@@ -8,16 +8,20 @@ Google Cloud Storage (GCS), BigQuery, Cloud Composer, Apache Airflow, Python, SQ
 
 ## 🔹 Key Highlights:
 
-Developed DAGs in Apache Airflow to automate the ELT pipeline.
+Developed a Cloud Composer DAG to automate the ELT process end-to-end.
 
-Configured GCS bucket as a raw data source and BigQuery as the data warehouse.
+Ingested country-wise CSV files from Google Cloud Storage (GCS) to BigQuery raw tables.
 
-Handled schema creation and transformations using SQL within BigQuery.
+Created BigQuery external and internal tables from GCS source files using SQL.
 
-Implemented country-wise data transformation using SQL views.
+Performed data transformation inside BigQuery, storing results in separate transformed tables per country.
 
-Set up necessary IAM policies, service accounts, and firewall rules to allow access via Compute Engine and enable Airflow web UI (port 8080).
+Built BigQuery views for each country to simplify analytical querying.
 
-Performed data aggregation queries to extract insights grouped by demographic (age group, country, etc.).
+Enabled Airflow web UI access by configuring GCP firewall rules and allowing port 8080.
 
-Scheduled daily runs to simulate continuous pipeline automation.
+Handled Airflow environment setup on Compute Engine, including Python package installations and Composer troubleshooting.
+
+Focused on ELT approach: Extraction & Load from GCS ➝ Transform using SQL in BigQuery.
+
+
