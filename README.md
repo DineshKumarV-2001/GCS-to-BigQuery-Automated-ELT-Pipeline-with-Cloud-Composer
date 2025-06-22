@@ -29,9 +29,14 @@ Handled Airflow environment setup on Compute Engine, including Python package in
 
 Focused on ELT approach: Extraction & Load from GCS ➝ Transform using SQL in BigQuery.
 
-## Orchestration Executed Successfully
+## DAG Visualization:
 
 ![Screenshot 2025-06-22 144607](https://github.com/user-attachments/assets/ba8e21a0-8e87-4840-8cce-e8bca2437535)
+
+## Insights from Bigquery
+
+![Screenshot 2025-06-22 152848](https://github.com/user-attachments/assets/f0881245-5470-4812-8385-c922cbd83f51)
+
 
 
 
