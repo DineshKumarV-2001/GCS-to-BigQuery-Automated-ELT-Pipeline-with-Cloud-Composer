@@ -2,7 +2,7 @@ from datetime import datetime
 from airflow import DAG
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobOperator
-from airflow.providers.google.cloud.sensors.gcs import GCSObjectExistenceSensor  # ✅ Missing import fixed
+from airflow.providers.google.cloud.sensors.gcs import GCSObjectExistenceSensor  
 
 # Default DAG arguments
 default_args = {
@@ -32,7 +32,7 @@ with DAG(
     check_file_exists = GCSObjectExistenceSensor(
         task_id='check_file_existence',
         bucket='you-bucket-name',
-        object='global_health_data.csv',  # ✅ Typo fixed here (was `oject`)
+        object='global_health_data.csv',  
         timeout=300,  # max wait: 5 mins
         poke_interval=30,
         mode='poke'
