@@ -32,7 +32,7 @@ with DAG(
     check_file_exists = GCSObjectExistenceSensor(
         task_id='check_file_existence',
         bucket='you-bucket-name',
-        object='global_health_data.csv',  
+        object='dataset.csv',  
         timeout=300,  # max wait: 5 mins
         poke_interval=30,
         mode='poke'
